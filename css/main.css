@@ -31,7 +31,7 @@ body {
 }
 
 header {
-    box-shadow: 5px 0px 18px grey;
+    box-shadow: 5px 0px 18px lightgrey;
 }
 
 .logo {
@@ -60,6 +60,11 @@ nav a {
     color: black;
     line-height: 1em;
     text-decoration: none;
+}
+
+footer {
+    background-color: lightgrey;
+    height: 10em;
 }
 
 @media only screen and (min-width: 38em) {
