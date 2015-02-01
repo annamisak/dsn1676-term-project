@@ -29,7 +29,7 @@ body {
 a,
 a:link,
 a:visited {
-    outline: 0;
+    outline: none;
     color: #29c5cb;
     text-decoration: none;
 }
@@ -40,7 +40,7 @@ a:focus {
 
 a:hover,
 a:active {
-    outline: 0;
+    outline: none;
 }
 
 /* KEYBOARD USE SETTINGS starts*/
