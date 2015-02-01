@@ -62,19 +62,38 @@ nav a {
     text-decoration: none;
 }
 
-main {
-    background-color: ;
-}
-
 .banner{
+    position: relative;
+    clear: both;
     height: 100vh;
     background-color: lightblue;
     background: url(../img/background.jpg) no-repeat;
     background-size: 100%;
 }
 
+.bee1 { 
+    position: absolute;
+    top: 9%;
+    left: 10%;
+    width: 10%;
+}
+
+.bee2 {
+    position: absolute;
+    top: 1%;
+    right: 25%;
+    width: 10%;
+}
+
+.bear {
+    position: absolute;
+    top: 13%;
+    right: 10%;
+    width: 20%;  
+}
+
 footer {
-    background-color: lightgrey;
+    background-color: #cae9e5;
     height: 10em;
 }
 
@@ -94,12 +113,19 @@ footer {
         text-align: right;
     }
     
+    .bear {
+        top: 19%;  
+    }
 }
 
 @media only screen and (min-width: 50em) {
     
     .header-wrapper {
         padding: 0 10%;
+    }
+    
+    .bear {
+        top: 27%;  
     }
 
 }
