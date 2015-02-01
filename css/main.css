@@ -25,7 +25,7 @@ body {
     padding: 0;
 }
 
-.img-flex {
+img {
     display: block;
     width: 100%;
 }
@@ -60,6 +60,17 @@ nav a {
     color: black;
     line-height: 1em;
     text-decoration: none;
+}
+
+main {
+    background-color: ;
+}
+
+.banner{
+    height: 100vh;
+    background-color: lightblue;
+    background: url(../img/background.jpg) no-repeat;
+    background-size: 100%;
 }
 
 footer {
