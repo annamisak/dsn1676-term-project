@@ -9,6 +9,7 @@ html {
     margin: 0;
     padding: 0;
     
+    color: grey;
     font: normal 100%/1.5;
     -moz-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
@@ -67,9 +68,13 @@ nav li {
 nav a {
     display: inline-block;
     padding: 1em;
-    color: black;
+    color: grey;
     line-height: 1em;
     text-decoration: none;
+}
+
+nav a:hover {
+    color: #29c5cb;
 }
 
 .container {
@@ -81,7 +86,6 @@ nav a {
 
 .banner{ 
     position: relative;
-    background-color: lightblue;
     height: 100%;
 }
 
@@ -89,9 +93,11 @@ h1 {
     position: absolute;
     display: inline;
     top: 10%;
-    left: 20%;
+    left: 15%;
     z-index: 2;
     text-align: center;
+    line-height: 1.1em;
+    color: #000;
 }
 
 .br {
@@ -158,12 +164,14 @@ h1 {
 .bear-top {
     position: absolute;
     top: 30%;
-    right: 10%;
+    right: 11%;
     width: 20%;
     z-index: 1;
     
     -webkit-animation: bear 6s ease-out infinite;
+    -webkit-transform-origin: center bottom;
     animation: bear 6s ease-out infinite;
+    transform-origin: center bottom;
 }
 
 @-webkit-keyframes bear {
@@ -202,8 +210,19 @@ h1 {
 }
 
 footer {
-    background-color: #fee890;
     height: 10em;
+}
+
+@media only screen and (min-width: 25em) {
+    
+    .peta {
+        font-size: 200%;
+    }
+    
+    .yotta {
+        font-size: 200%;
+    }
+    
 }
 
 @media only screen and (min-width: 38em) {
@@ -225,12 +244,29 @@ footer {
     .bee1 {
         top: 60%;  
     }
+    
+    .peta {
+        font-size: 300%;
+    }
+    
+    .yotta {
+        font-size: 200%;
+    }
+    
 }
 
-@media only screen and (min-width: 50em) {
+@media only screen and (min-width: 60em) {
     
     .header-wrapper {
         padding: 0 10%;
+    }
+    
+    .peta {
+        font-size: 400%;
+    }
+    
+    .yotta {
+        font-size: 200%;
     }
 
 }
