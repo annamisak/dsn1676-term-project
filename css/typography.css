@@ -34,8 +34,8 @@ fieldset, pre, table {
 }
 
 .yotta {
-  font-size: 2.2807rem;
-  line-height: 1.3154;
+  font-size: 3.2807rem;
+  line-height: 1;
 }
 
 .zetta {
@@ -46,11 +46,12 @@ fieldset, pre, table {
 h1, .exa {
   font-size: 1.8020rem;
   line-height: 1.6648;
+  font-family: "Amatic SC", serif;
 }
 
 h2, .peta {
   font-size: 1.6018rem;
-  line-height: 1.8729;
+  line-height: 1;
 }
 
 h3, .tera {
