@@ -38,6 +38,14 @@ header {
     width: 4em;
     margin-left: auto;
     margin-right: auto;
+    
+    opacity: 1;
+    transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+
+.logo:hover {
+    opacity: 0.5;
 }
 
 nav {
@@ -93,7 +101,7 @@ nav a {
 }
 
 footer {
-    background-color: #cae9e5;
+    background-color: #fee890;
     height: 10em;
 }
 
