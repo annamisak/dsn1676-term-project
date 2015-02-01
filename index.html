@@ -11,13 +11,18 @@
 </head>
 <body>
     
-    <header class="grid header-wrapper">
+    <ul class="skip-links">
+        <li><a href="#main">Jump to main content</a></li>
+        <li><a href="#navigation">Jump to navigation</a></li>
+    </ul>
+    
+    <header id="top" role="banner" class="grid header-wrapper">
         <div class="unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 pad-top-half">
             <a href="index.html"><img class="logo" src="img/bear-top.svg" alt="Logo"></a>
         </div>
         
         <div class="unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 pad-top-half">
-            <nav>
+            <nav id="navigation" role="navigation">
                 <ul>
                     <li><a href="#">Stories</a></li>
                     <li><a href="#">About</a></li>
@@ -27,7 +32,7 @@
         </div>
     </header>
  
-    <main>
+    <main id="main" role="main">
         <div class="container">
             <h1 class="peta">The Adventures of <span class="br yotta">Blue Bear</span></h1>
             <img class="banner" src="img/background.jpg" alt="Bee One">
@@ -35,7 +40,7 @@
             <img class="bee2" src="img/bee2.svg" alt="Bee Two">
             <img class="bear-top" src="img/bear-top1.svg" alt="Bear">
             <img class="bear-bottom" src="img/bear-bottom.svg" alt="Bear">
-            <img class="arrow" src="img/down-arrow.svg" alt="Arrow">
+            <a href="#"><img class="arrow" src="img/down-arrow.svg" alt="Arrow"></a>
         </div>
     </main>
     

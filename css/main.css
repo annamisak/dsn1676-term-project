@@ -26,6 +26,49 @@ body {
     padding: 0;
 }
 
+a,
+a:link, 
+a:visited {
+    /*It is okay to get rid of the focus rectangle for mouse users BUT NEVER REMOVE IT FOR KEYBOARD USERS!!!*/
+    outline:  none;
+    color: #29c5cb;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+/* KEYBOARD USE SETTINGS starts*/
+
+a:focus {
+    outline: 3px solid #000;
+}
+
+.skip-links {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.skip-links a {
+    position: absolute;
+    top: -3em;
+    padding: 0.5em 0.75em;
+    background-color: #29c5cb;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.25em;
+    text-decoration: none;
+}
+
+.skip-links a:focus {
+    top: 0;
+}
+
+/* KEYBOARD USE SETTINGS ends*/
+
 img {
     display: block;
     width: 100%;
@@ -93,7 +136,7 @@ h1 {
     position: absolute;
     display: inline;
     top: 10%;
-    left: 15%;
+    left: 10%;
     z-index: 2;
     text-align: center;
     line-height: 1.1em;
@@ -231,6 +274,10 @@ footer {
         padding: 0 5%;
     }
     
+    h1 {
+        left: 7%;
+    }
+    
     .logo {
         text-align: left;
         margin: 0;
@@ -259,6 +306,10 @@ footer {
     
     .header-wrapper {
         padding: 0 10%;
+    }
+    
+    h1 {
+        left: 12%;
     }
     
     .peta {
