@@ -269,6 +269,12 @@ footer {
         font-size: 200%;
     }
     
+    .arrow {
+        width: 13%;
+        top: 73%;
+        left: calc(50% - 6.5%);
+    }
+    
 }
 
 @media only screen and (min-width: 38em) {
@@ -304,9 +310,9 @@ footer {
     }
     
     .arrow {
-        width: 15%;
-        top: 70%;
-        left: calc(50% - 7.5%);
+        width: 10%;
+        top: 78%;
+        left: calc(50% - 5%);
     }
     
 }
@@ -330,9 +336,9 @@ footer {
     }
     
     .arrow {
-        width: 10%;
-        top: 78%;
-        left: calc(50% - 5%);
+        width: 7%;
+        top: 84%;
+        left: calc(50% - 3.5%);
     }
 
 }
