@@ -240,9 +240,9 @@ h1 {
 .arrow {
     position: absolute;
     z-index: 3;
-    width: 8%;
-    top: 80%;
-    left: calc(50% - 4%);
+    width: 20%;
+    top: 60%;
+    left: calc(50% - 10%);
 
     opacity: 0.5;
     -webkit-transition: opacity .25s ease-in-out;
@@ -254,7 +254,9 @@ h1 {
 }
 
 footer {
+    position: relative;
     height: 10em;
+    background-color: white;
 }
 
 @media only screen and (min-width: 25em) {
@@ -301,6 +303,12 @@ footer {
         font-size: 200%;
     }
     
+    .arrow {
+        width: 15%;
+        top: 70%;
+        left: calc(50% - 7.5%);
+    }
+    
 }
 
 @media only screen and (min-width: 60em) {
@@ -319,6 +327,12 @@ footer {
     
     .yotta {
         font-size: 200%;
+    }
+    
+    .arrow {
+        width: 10%;
+        top: 78%;
+        left: calc(50% - 5%);
     }
 
 }
