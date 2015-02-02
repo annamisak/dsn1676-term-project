@@ -128,7 +128,7 @@ nav a:hover {
     height: 100%;
 }
 
-.banner{ 
+.billboard{ 
     position: relative;
     height: 100%;
 }
@@ -237,19 +237,19 @@ h1 {
     width: 20%;  
 }
 
-.arrow {
+.button {
     position: absolute;
     z-index: 3;
     width: 20%;
     top: 60%;
     left: calc(50% - 10%);
 
-    opacity: 0.5;
+    opacity: .8;
     -webkit-transition: opacity .25s ease-in-out;
     transition: opacity .25s ease-in-out;
 }
 
-.arrow:hover {
+.button:hover {
     opacity: 1;
 }
 
@@ -269,7 +269,7 @@ footer {
         font-size: 200%;
     }
     
-    .arrow {
+    .button {
         width: 13%;
         top: 73%;
         left: calc(50% - 6.5%);
@@ -309,7 +309,7 @@ footer {
         font-size: 200%;
     }
     
-    .arrow {
+    .button {
         width: 10%;
         top: 78%;
         left: calc(50% - 5%);
@@ -335,7 +335,7 @@ footer {
         font-size: 200%;
     }
     
-    .arrow {
+    .button {
         width: 7%;
         top: 84%;
         left: calc(50% - 3.5%);
