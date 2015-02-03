@@ -131,6 +131,7 @@ nav a:hover {
 .billboard{ 
     position: relative;
     height: 100%;
+    background-color: lightblue;
 }
 
 h1 {
@@ -239,7 +240,6 @@ h1 {
 
 .button {
     position: absolute;
-    z-index: 3;
     width: 20%;
     top: 60%;
     left: calc(50% - 10%);
