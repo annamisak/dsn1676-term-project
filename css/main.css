@@ -130,8 +130,10 @@ nav a:hover {
 
 .billboard{ 
     position: relative;
-    height: 100%;
     background-color: lightblue;
+    padding-top: 53%;
+    background-image: url("../img/background.jpg");
+    background-size: cover;
 }
 
 h1 {
