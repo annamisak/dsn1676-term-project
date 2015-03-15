@@ -30,7 +30,6 @@ a,
 a:link,
 a:visited {
     outline: none;
-    color: #29c5cb;
     text-decoration: none;
 }
 
@@ -75,55 +74,82 @@ img {
 
 .toggle-nav {
     position: absolute;
-    top: 10px;
+    top: 10%;
     width: 100%;
     z-index: 3;
 }
 
+button {
+    background-color: transparent;
+}
+
 .toggle-btn {
     float: right;
-    margin-right: 1em;
+    margin-right: 2em;
     background-image: url("../img/toggle.svg");
     background-size: 36px auto;
     width: 36px;
-    height: 36px;
-    text-indent: 100%;
+    height: 28px;
+    text-indent: 3em;
     overflow: hidden;
     white-space: nowrap;
+    border: 0;
 }
 
 nav {
-    margin-top: 2em;
-    text-align: right;
-}
+    margin-top: 48px;
+    margin-right: -35px;
+    float: right;
+    opacity: .93;
+}   
 
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    background-color: white;
+    border-radius: 15px;
 }
 
-nav a {
+nav li {
+    text-align: center;
+}
+
+nav a,
+nav a:active,
+nav a:link {
+    outline: 0;
     display: block;
     padding: 1em;
-    color: grey;
+    color: #29c5cb;
     line-height: 1em;
     text-decoration: none;
+    opacity: 1;
 }
 
 nav a:hover {
-    outline: 0;
-    color: #000;
-    text-decoration: underline;
+    color: #fff;
+    text-decoration: none;
+    background-color: #29c5cb;
+    border-radius: 15px;
+    opacity: 1;
 }
 
 .panel {
-    display: none;
+    max-height: 0;
+    float: right;
+    overflow: hidden;
+    transition: all 250ms linear;
 }
 
 .js-panel-open {
-    display: block;
+    max-height: 15em;
+    float: right;
 }
+
+
+    
+
 
 .container {
     position: relative;
@@ -425,6 +451,9 @@ footer {
         left: calc(50% - 5%);
     }
     
+    .toggle-nav {
+        top: 5%;
+    }
 }
 
 @media only screen and (min-width: 60em) {
