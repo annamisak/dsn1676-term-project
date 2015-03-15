@@ -72,10 +72,6 @@ img {
     width: 100%;
 }
 
-header {
-    overflow: hidden;
-}
-
 .toggle-nav {
     position: absolute;
     top: 10%;
@@ -164,6 +160,7 @@ nav a:hover {
     padding-top: 53%;
     background-image: url("../img/background.jpg");
     background-size: cover;
+    overflow: hidden;
 }
 
 h1 {
