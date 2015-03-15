@@ -72,6 +72,10 @@ img {
     width: 100%;
 }
 
+header {
+    overflow: hidden;
+}
+
 .toggle-nav {
     position: absolute;
     top: 10%;
