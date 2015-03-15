@@ -73,26 +73,27 @@ img {
     width: 100%;
 }
 
-header {
-    position: relative;
-    display: block;
+.toggle-nav {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    z-index: 3;
 }
 
-.logo {
-    width: 4em;
-    margin-left: auto;
-    margin-right: auto;
-    
-    opacity: 1;
-    -webkit-transition: opacity .25s ease-in-out;
-    transition: opacity .25s ease-in-out;
-}
-
-.logo:hover {
-    opacity: 0.5;
+.toggle-btn {
+    float: right;
+    margin-right: 1em;
+    background-image: url("../img/toggle.svg");
+    background-size: 36px auto;
+    width: 36px;
+    height: 36px;
+    text-indent: 100%;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 nav {
+    margin-top: 2em;
     text-align: center;
 }
 
@@ -102,12 +103,8 @@ nav ul {
     padding: 0;
 }
 
-nav li {
-    display: inline;
-}
-
 nav a {
-    display: inline-block;
+    display: block;
     padding: 1em;
     color: grey;
     line-height: 1em;
