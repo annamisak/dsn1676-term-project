@@ -139,6 +139,7 @@ nav a:hover {
     max-height: 0;
     float: right;
     overflow: hidden;
+    -webkit-transition: all 250ms linear;
     transition: all 250ms linear;
 }
 
@@ -146,10 +147,6 @@ nav a:hover {
     max-height: 15em;
     float: right;
 }
-
-
-    
-
 
 .container {
     position: relative;
