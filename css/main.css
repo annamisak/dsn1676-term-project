@@ -81,9 +81,11 @@ img {
 
 button {
     background-color: transparent;
+    outline: none;
 }
 
 .toggle-btn {
+    cursor: pointer;
     float: right;
     margin-right: 2em;
     background-image: url("../img/toggle.svg");
@@ -97,10 +99,10 @@ button {
 }
 
 nav {
-    margin-top: 48px;
+    margin-top: 30px;
     margin-right: -35px;
+    width: 250px;
     float: right;
-    opacity: .93;
 }   
 
 nav ul {
@@ -124,7 +126,6 @@ nav a:link {
     color: #29c5cb;
     line-height: 1em;
     text-decoration: none;
-    opacity: 1;
 }
 
 nav a:hover {
@@ -132,7 +133,6 @@ nav a:hover {
     text-decoration: none;
     background-color: #29c5cb;
     border-radius: 15px;
-    opacity: 1;
 }
 
 .panel {
