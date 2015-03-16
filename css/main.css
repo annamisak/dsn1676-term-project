@@ -163,6 +163,21 @@ img {
   display: none;
 }
 
+.fadein {
+    -webkit-animation: fade 750ms;
+    animation: fade 750ms;
+}
+
+@-webkit-keyframes fade {
+    0% { opacity: 0; }
+    100%   { opacity: 1; }
+}
+
+@keyframes fadein {
+    0% { opacity: 0; }
+    100%   { opacity: 1; }
+}
+
 .tab-panels {
     width: 100%;
 }
@@ -546,6 +561,12 @@ footer {
     .panel-pink {
         width: 200%;
         margin-left: -100%;
+    }
+    
+    .tab-container {
+        margin: 0 auto;
+        width: 80%;
+        text-align: center;
     }
     
 }
