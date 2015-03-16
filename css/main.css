@@ -167,8 +167,11 @@ img {
 
 /* BANNER Starts*/
 
-.billboard{ 
+header {
     position: relative;
+}
+
+.billboard{ 
     padding-top: 53%;
     background-image: url("../img/background.jpg");
     background-size: cover;
