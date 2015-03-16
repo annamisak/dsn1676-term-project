@@ -151,13 +151,20 @@ img {
   display: none;
 }
 
+.tab-panels {
+    width: 100%;
+}
+
 .tabs {
     position: relative;
     width: 100%;
-    background-color: teal;
     margin: 0 auto;
+    overflow: hidden;
 }
 
+.tab-width {
+    margin: 0;
+}
 .tabs li {
   display: inline-block;
 }
@@ -167,7 +174,7 @@ img {
 }
 
 .tab-img {
-    width: 33%;
+    width: 100%;
     text-align: center;
 }
 
@@ -175,16 +182,41 @@ img {
     margin: 0;
     padding: 0;
     position: absolute;
-    top: 0;
+    bottom: -3em;
+    width: 100%;
+    text-align: center;
+    padding: 1em;
+    color: white;
+    background-color: #863fdd;
+    font-size: 1.3em;
+    text-transform: uppercase;
     opacity: 0;
-    transition: all 500ms linear;
+    transition: all 250ms linear;
 }
 
 .tabs:hover .titles {
-    top: 2em;
-    opacity: 1;
+    bottom: 0;
+    opacity: .6;
 }
 
+.green {
+    background-color: #ec5297;
+    width: 100%;
+}
+    
+.yellow {
+    background-color: #ecad52;
+    width: 100%;
+}
+
+.blue {
+    background-color: #4fbde6;
+    width: 100%;
+}
+
+.text-white {
+    color: #fff;
+}
 
 /* TABS ends */
 
@@ -429,7 +461,7 @@ h1 {
 /* BANNER ends*/
 
 footer {
-    height: 10em;
+    height: 5em;
     background-color: white;
 }
 
@@ -487,6 +519,11 @@ footer {
         width: 10%;
         top: 78%;
         left: calc(50% - 5%);
+    }
+    
+    .tab-img-border {
+        border-right: 1px solid white;
+        border-left: 1px solid white;
     }
     
 }
