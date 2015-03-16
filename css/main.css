@@ -189,10 +189,8 @@ img {
     padding: 1em;
     color: white;
     background-color: #863fdd;
-    font-size: 1.3em;
     opacity: 0;
     transition: all 250ms linear;
-    font-family: "Sofia";
 }
 
 .tabs:hover .titles {
