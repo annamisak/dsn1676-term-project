@@ -95,6 +95,18 @@ img {
     border-radius: 15px;
     text-align: center;
     box-shadow: 3px 3px 10px #8CC63F;
+    -webkit-animation: fadein 750ms;
+    animation: fadein 750ms;
+}
+
+@-webkit-keyframes fadein {
+    0% { opacity: 0; }
+    100%   { opacity: 1; }
+}
+
+@keyframes fadein {
+    0% { opacity: 0; }
+    100%   { opacity: 1; }
 }
 
 .nav a,
@@ -141,7 +153,6 @@ img {
 
 .nav-check:checked ~ .nav-label {
     background-position: center bottom;
-
 }
 
 /* Navigation Ends */
@@ -186,24 +197,23 @@ img {
     bottom: -3em;
     width: 100%;
     text-align: center;
-    padding: 1em;
+    padding: .35em;
     color: white;
-    background-color: #863fdd;
     opacity: 0;
     transition: all 250ms linear;
 }
 
 .tabs:hover .titles {
     bottom: 0;
-    opacity: .6;
+    opacity: 1;
 }
 
-.green {
+.pink {
     background-color: #ec5297;
     width: 100%;
 }
     
-.yellow {
+.orange {
     background-color: #ecad52;
     width: 100%;
 }
@@ -529,6 +539,15 @@ footer {
         border-left: 1px solid white;
     }
     
+    .panel-blue {
+        width: 200%;
+    }
+    
+    .panel-pink {
+        width: 200%;
+        margin-left: -100%;
+    }
+    
 }
 
 @media only screen and (min-width: 60em) {
@@ -553,6 +572,20 @@ footer {
         width: 7%;
         top: 84%;
         left: calc(50% - 3.5%);
+    }
+    
+    .panel-blue {
+        width: 300%;
+    }
+    
+    .panel-pink {
+        width: 300%;
+        margin-left: -100%;
+    }
+    
+    .panel-orange {
+        width: 300%;
+        margin-left: -200%;
     }
 
 }
