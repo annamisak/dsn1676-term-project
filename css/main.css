@@ -489,8 +489,14 @@ h1 {
 /* BANNER ends*/
 
 footer {
-    height: 5em;
-    background-color: white;
+    height: 9em;
+    background-color: #c47cd1;
+    color: #fff;
+    margin: 0;
+}
+
+footer p {
+    margin: 0;
 }
 
 @media only screen and (min-width: 25em) {
