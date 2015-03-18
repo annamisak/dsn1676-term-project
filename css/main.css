@@ -209,18 +209,19 @@ img {
     margin: 0;
     padding: 0;
     position: absolute;
-    bottom: -3em;
+    bottom: 0;
     width: 100%;
     text-align: center;
     padding: .35em;
     color: white;
-    opacity: 0;
+    opacity: .7;
+
     transition: all 250ms linear;
 }
 
 .tabs:hover .titles {
-    bottom: 0;
     opacity: 1;
+    font-size: 2em;
 }
 
 .pink {
