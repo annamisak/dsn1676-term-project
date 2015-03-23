@@ -500,6 +500,20 @@ footer p {
     margin: 0;
 }
 
+footer a,
+footer a:link,
+footer a:active {
+    color: yellow;
+}
+
+footer a:hover {
+    color: white;
+}
+
+wrapper {
+    width: 100%;
+}
+
 @media only screen and (min-width: 25em) {
     
     .peta {

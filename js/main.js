@@ -11,3 +11,9 @@ $tabs.on('click', 'a', function (e) {
   $tabs.find('.js-current').removeClass('js-current');
   $(this).addClass('js-current');
 });
+
+$('.nav').localScroll();
+
+$('.button').localScroll();
+
+$('.wrapper').localScroll();
