@@ -1,5 +1,5 @@
 html {
-  font: normal 100%/1.5 "Josefin Sans", sans-serif;
+  font: normal 100%/1.5 "Raleway", sans-serif;
 }
 
 @media only screen and (min-width: 60em) {
@@ -46,7 +46,7 @@ fieldset, pre, table {
 h1, .exa {
   font-size: 1.8020rem;
   line-height: 1.6648;
-  font-family: "Amatic SC", serif;
+  font-family: "Raleway", serif;
 }
 
 h2, .peta {
@@ -60,12 +60,12 @@ h3, .tera {
 }
 
 h4, .giga {
-  font-size: 1.2656rem;
-  line-height: 1.1852;
+  font-size: 1.1rem;
+  line-height: 1.4;
 }
 
 h5, .mega {
-  font-size: 1.1250rem;
+  font-size: 1.1150rem;
   line-height: 1.3333;
 }
 
