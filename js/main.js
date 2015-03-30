@@ -17,3 +17,5 @@ $('.nav').localScroll();
 $('.button').localScroll();
 
 $('.wrapper').localScroll();
+
+$('.social-media').localScroll();

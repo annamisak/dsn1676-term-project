@@ -490,7 +490,7 @@ h1 {
 /* BANNER ends*/
 
 footer {
-    height: 9em;
+    height: auto;
     background-color: #c47cd1;
     color: #fff;
     margin: 0;
@@ -503,7 +503,7 @@ footer p {
 footer a,
 footer a:link,
 footer a:active {
-    color: yellow;
+    color: pink;
 }
 
 footer a:hover {
@@ -512,6 +512,22 @@ footer a:hover {
 
 wrapper {
     width: 100%;
+}
+
+.sm-wrapper {
+    width: 100%;
+    text-align: center;
+}
+
+.social-media {
+    width: 3em;
+    display: inline-block;
+}
+
+.return {
+    width: 100%;
+    text-align: right;
+    padding: 1em;
 }
 
 @media only screen and (min-width: 25em) {
@@ -632,4 +648,5 @@ wrapper {
     .tab-container {
         width: 50%;
     }
+    
 }
