@@ -253,11 +253,11 @@ img {
 
 .svg {
     width: 250px;
-    float: left;
 }
 
 .svg-width {
-    width: 280px;
+    width: 250px;
+    margin: 0 auto;
 }
 
 .bear-body {
@@ -274,8 +274,8 @@ img {
     }
 }
 
-#arm-left {
-    transform-origin: center left;
+.arm-left {
+    transform-origin: center center;
     animation: arm-left 1s ease alternate infinite;
 }
 
