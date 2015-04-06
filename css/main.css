@@ -290,7 +290,7 @@ img {
     -webkit-transform-origin: center left;
     -webkit-animation: arm-left 1s ease alternate infinite;
     
-    transform-origin: center center;
+    transform-origin: center left;
     animation: arm-left 1s ease alternate infinite;
 }
 
