@@ -249,10 +249,98 @@ img {
 
 /* TABS ends */
 
+/* SVG ANIMATION starts */
+
+.svg {
+    width: 250px;
+    float: left;
+}
+
+.svg-width {
+    width: 280px;
+}
+
+.bear-body {
+    animation: bear-body 1s ease alternate infinite;
+}
+
+@keyframes bear-body {
+    0% {
+        transform: translateY(-20px);
+    }
+    
+    100% {
+        transform: translateY(-70px);
+    }
+}
+
+#arm-left {
+    transform-origin: center left;
+    animation: arm-left 1s ease alternate infinite;
+}
+
+@keyframes arm-left {
+    0% {
+        transform: rotate(0);
+    }
+    
+    100% {
+        transform: rotate(-60deg);
+    }
+}
+
+#arm-right {
+    transform-origin: center left;
+    animation: arm-right 1s ease alternate infinite;
+}
+
+@keyframes arm-right {
+    0% {
+        transform: rotate(0);
+    }
+    
+    100% {
+        transform: rotate(-40deg);
+    }
+}
+
+#leg-left {
+    transform-origin: center left;
+    animation: leg-left 1s ease alternate infinite;
+}
+
+@keyframes leg-left {
+    0% {
+        transform: rotate(0);
+    }
+    
+    100% {
+        transform: rotate(20deg);
+    }
+}
+
+#leg-right {
+    transform-origin: center left;
+    animation: leg-right 1s ease alternate infinite;
+}
+
+@keyframes leg-right {
+    0% {
+        transform: rotate(0);
+    }
+    
+    100% {
+        transform: rotate(50deg);
+    }
+}
+
+/* SVG ANIMATION ends */
+
 /* BANNER Starts*/
 
 header {
     position: relative;
+    overflow: hidden;
 }
 
 .billboard{ 
@@ -602,7 +690,7 @@ wrapper {
     
     .tab-container {
         margin: 0 auto;
-        width: 80%;
+        width: 90%;
     }
     
 }
@@ -645,8 +733,8 @@ wrapper {
         margin-left: -200%;
     }
     
-    .tab-container {
-        width: 50%;
+        .tab-container {
+        width: 90%;
     }
     
 }
