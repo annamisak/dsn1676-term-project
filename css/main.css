@@ -261,7 +261,19 @@ img {
 }
 
 .bear-body {
+    -webkit-animation: bear-body 1s ease alternate infinite;
+    
     animation: bear-body 1s ease alternate infinite;
+}
+
+@-webkit-keyframes bear-body {
+    0% {
+        -webkit-transform: translateY(-20px);
+    }
+    
+    100% {
+        -webkit-transform: translateY(-70px);
+    }
 }
 
 @keyframes bear-body {
@@ -274,9 +286,22 @@ img {
     }
 }
 
-.arm-left {
+#arm-left {
+    -webkit-transform-origin: center left;
+    -webkit-animation: arm-left 1s ease alternate infinite;
+    
     transform-origin: center center;
     animation: arm-left 1s ease alternate infinite;
+}
+
+@-webkit-keyframes arm-left {
+    0% {
+        -webkit-transform: rotate(0);
+    }
+    
+    100% {
+        -webkit-transform: rotate(-60deg);
+    }
 }
 
 @keyframes arm-left {
@@ -290,8 +315,21 @@ img {
 }
 
 #arm-right {
+    -webkit-transform-origin: center left;
+    -webkit-animation: arm-right 1s ease alternate infinite;
+    
     transform-origin: center left;
     animation: arm-right 1s ease alternate infinite;
+}
+
+@-webkit-keyframes arm-right {
+    0% {
+        -webkit-transform: rotate(0);
+    }
+    
+    100% {
+        -webkit-transform: rotate(-40deg);
+    }
 }
 
 @keyframes arm-right {
@@ -305,8 +343,21 @@ img {
 }
 
 #leg-left {
-    transform-origin: center left;
+    -webkit-transform-origin: center top;
+    -webkit-animation: leg-left 1s ease alternate infinite;
+    
+    transform-origin: center top;
     animation: leg-left 1s ease alternate infinite;
+}
+
+@-webkit-keyframes leg-left {
+    0% {
+        -webkit-transform: rotate(0);
+    }
+    
+    100% {
+        -webkit-transform: rotate(25deg);
+    }
 }
 
 @keyframes leg-left {
@@ -315,13 +366,26 @@ img {
     }
     
     100% {
-        transform: rotate(20deg);
+        transform: rotate(25deg);
     }
 }
 
 #leg-right {
-    transform-origin: center left;
+    -webkit-transform-origin: center top;
+    -webkit-animation: leg-right 1s ease alternate infinite;
+    
+    transform-origin: center top;
     animation: leg-right 1s ease alternate infinite;
+}
+
+@-webkit-keyframes leg-right {
+    0% {
+        -webkit-transform: rotate(0);
+    }
+    
+    100% {
+        -webkit-transform: rotate(18deg);
+    }
 }
 
 @keyframes leg-right {
@@ -330,7 +394,7 @@ img {
     }
     
     100% {
-        transform: rotate(50deg);
+        transform: rotate(18deg);
     }
 }
 
