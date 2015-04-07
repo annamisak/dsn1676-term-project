@@ -255,12 +255,13 @@ img {
     width: 250px;
 }
 
-.svg-width {
+.bearbody {
     width: 250px;
     margin: 0 auto;
 }
 
-.bear-body {
+
+.js-active #bear-body {
     -webkit-animation: bear-body 1s ease alternate infinite;
     
     animation: bear-body 1s ease alternate infinite;

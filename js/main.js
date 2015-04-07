@@ -19,3 +19,9 @@ $('.button').localScroll();
 $('.wrapper').localScroll();
 
 $('.social-media').localScroll();
+
+var $bearbody = $('.bearbody');
+
+$bearbody.waypoint(function () {
+    $bearbody.addClass('js-active');
+}, {offset: '60%'} );
