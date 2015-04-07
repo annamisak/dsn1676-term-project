@@ -24,4 +24,4 @@ var $bearbody = $('.bearbody');
 
 $bearbody.waypoint(function () {
     $bearbody.addClass('js-active');
-}, {offset: '60%'} );
+}, {offset: '70%'} );

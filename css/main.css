@@ -287,7 +287,7 @@ img {
     }
 }
 
-#arm-left {
+.js-active #arm-left {
     -webkit-transform-origin: center left;
     -webkit-animation: arm-left 1s ease alternate infinite;
     
@@ -315,7 +315,7 @@ img {
     }
 }
 
-#arm-right {
+.js-active #arm-right {
     -webkit-transform-origin: center left;
     -webkit-animation: arm-right 1s ease alternate infinite;
     
@@ -343,7 +343,7 @@ img {
     }
 }
 
-#leg-left {
+.js-active #leg-left {
     -webkit-transform-origin: center top;
     -webkit-animation: leg-left 1s ease alternate infinite;
     
@@ -371,7 +371,7 @@ img {
     }
 }
 
-#leg-right {
+.js-active #leg-right {
     -webkit-transform-origin: center top;
     -webkit-animation: leg-right 1s ease alternate infinite;
     
