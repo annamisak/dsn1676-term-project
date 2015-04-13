@@ -11,7 +11,6 @@
 
 .js-active #bear-body {
     -webkit-animation: bear-body 1s ease alternate infinite;
-    
     animation: bear-body 1s ease alternate infinite;
 }
 
