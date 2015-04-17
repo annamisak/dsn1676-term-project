@@ -24,17 +24,13 @@ var $bearbody = $('.bearbody');
 
 $bearbody.waypoint(function () {
     $bearbody.addClass('js-active');
-}, {offset: '40%'} );
+    
+    TweenMax.to('.leg-left', 1, {rotation:25, transformOrigin:'50% 0', ease:Linear.easeInOut, repeat:-1});
+    
+    TweenMax.to('.leg-right', 1, {rotation:18, transformOrigin:'50% 0', ease:Linear.easeInOut, repeat:-1});
 
-//TweenMax.to(“.animated-rectangle, .animated-outline”, 6, {rotation:360, transformOrigin:”50% 50%”, ease:Linear.easeNone, repeat:-1});
+    TweenMax.to('.arm-right', 1, {rotation:-60, transformOrigin:'0 50%', ease:Linear.easeInOut, repeat:-1});
 
-// #leg-left {  
-//    transform-origin: center top;
-//    animation: leg-left 1s ease alternate infinite;}
-
-//@keyframes leg-left {
-//    0% {transform: rotate(0);} 
-//    100% {transform: rotate(25deg);}
-//}
-
-TweenMax.to(".leg-left", 1, {rotation:25, transformOrigin:"center top", ease:Linear.easeNone, repeat:-1});
+    TweenMax.to('.arm-left', 1, {rotation:-40, transformOrigin:'0 50%', ease:Linear.easeInOut, repeat:-1});
+    
+}, {offset: '40%'});

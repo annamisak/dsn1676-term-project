@@ -34,7 +34,7 @@
     }
 }
 
-#arm-left {
+/*.js-active #arm-left {
     -webkit-transform-origin: center left;
     -webkit-animation: arm-left 1s ease alternate infinite;
     
@@ -62,7 +62,7 @@
     }
 }
 
-#arm-right {
+.js-active #arm-right {
     -webkit-transform-origin: center left;
     -webkit-animation: arm-right 1s ease alternate infinite;
     
@@ -90,7 +90,7 @@
     }
 }
 
-/* #leg-left {
+.js-active #leg-left {
     -webkit-transform-origin: center top;
     -webkit-animation: leg-left 1s ease alternate infinite;
     
@@ -116,9 +116,9 @@
     100% {
         transform: rotate(25deg);
     }
-} */
+}
 
-#leg-right {
+.js-active #leg-right {
     -webkit-transform-origin: center top;
     -webkit-animation: leg-right 1s ease alternate infinite;
     
@@ -356,6 +356,6 @@
 
 .st42 {
     fill:url(#arm_shadow_2_);
-}
+}*/
 
 /* SVG ANIMATION ends */
