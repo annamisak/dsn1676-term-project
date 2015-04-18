@@ -88,13 +88,11 @@ img {
     background-color: #ccc;
     display: none;
     position: absolute;
-    right: 1.5em;
-    top: 2.5em;
-    width: 13em;
+    right: 20px;
+    top: 60px;
+    width: 9em;
     background-color: white;
-    border-radius: 15px;
-    text-align: center;
-    box-shadow: 3px 3px 10px #8CC63F;
+    text-align: right;
     -webkit-animation: fadein 750ms;
     animation: fadein 750ms;
 }
@@ -121,7 +119,6 @@ img {
 .nav a:hover {
     color: #fff;
     background-color: #8CC63F;
-    border-radius: 15px;
 }
 
 .nav-check {
@@ -143,16 +140,22 @@ img {
     top: 1em;
     
     background-image: url("../img/toggle.svg");
-    background-size: 36px auto;
-    width: 36px;
-    height: 28px;
-    text-indent: 100%;
+    background-size: 50px auto;
+    width: 50px;
+    height: 40px;
+    text-indent: 90%;
     overflow: hidden;
     white-space: nowrap;
 }
 
 .nav-check:checked ~ .nav-label {
     background-position: center bottom;
+}
+
+.nav-check:checked ~ .nav-label-bg {
+    background-image: url("../img/toggle-bg.svg");
+    width: 70px;
+    height: 70px;
 }
 
 .button {
@@ -168,6 +171,18 @@ img {
 
 .button:hover {
     opacity: 1;
+}
+
+.img-hover {
+    width: 30px;
+    float: right;
+    margin-left: 10px;
+    overflow: hidden;
+    transition: all .25s ease-in-out;
+}
+
+.nav a:hover .img-hover {
+    transform: rotate(-30deg);
 }
 
 /* Navigation Ends */
@@ -237,6 +252,11 @@ img {
 .tabs:hover .titles {
     opacity: 1;
     font-size: 2em;
+}
+
+.tab-img {
+    text-align: left;
+    
 }
 
 .pink {
@@ -341,6 +361,10 @@ wrapper {
     
     nav {
         text-align: right;
+    }
+    
+    .nav {
+        right: 22px;
     }
     
     .bee1 {
