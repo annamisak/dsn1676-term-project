@@ -52,6 +52,13 @@ html {
     }  
 }
 
+@media only screen and (min-width: 150em) {
+    
+    html {
+        font-size: 230%;
+    }  
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -120,12 +127,15 @@ img {
     display: none;
     position: absolute;
     right: 1em;
-    top: 3em;
     width: 9em;
     background-color: white;
     text-align: right;
     -webkit-animation: fadein 750ms;
     animation: fadein 750ms;
+}
+
+nav ul {
+    top: 3em;
 }
 
 @-webkit-keyframes fadein {
@@ -194,7 +204,7 @@ img {
     background-size: 50px auto;
     width: 50px;
     height: 40px;
-    text-indent: 90%;
+    text-indent: 100%;
     overflow: hidden;
     white-space: nowrap;
 }
@@ -225,7 +235,7 @@ img {
 }
 
 .img-hover {
-    width: 30px;
+    width: 18%;
     float: right;
     margin-left: 10px;
     overflow: hidden;
@@ -534,5 +544,45 @@ wrapper {
     .story-img {
         width: 100%;
         height: auto;
+    }
+}
+
+@media only screen and (min-width: 85em) {
+
+    .nav-label {
+        background-size: 60px auto;
+        width: 60px;
+        height: 50px;
+    }
+}
+
+@media only screen and (min-width: 90em) {
+    
+    .nav-label {
+        background-size: 70px auto;
+        width: 70px;
+        height: 60px;
+    }
+}
+
+@media only screen and (min-width: 120em) {
+    
+    .nav-label {
+        background-size: 90px auto;
+        width: 90px;
+        height: 70px;
+    }
+}
+
+@media only screen and (min-width: 150em) {
+    
+    .nav-label {
+        background-size: 120px auto;
+        width: 120px;
+        height: 100px;
+    }
+
+    nav ul {
+        top: 3.5em;
     }
 }
