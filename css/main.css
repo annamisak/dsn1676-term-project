@@ -198,10 +198,12 @@ img {
     float: right;
     margin-left: 10px;
     overflow: hidden;
+    -webkit-transition: all .25s ease-in-out;
     transition: all .25s ease-in-out;
 }
 
 .nav a:hover .img-hover {
+    -webkit-transform: rotate(-30deg);
     transform: rotate(-30deg);
 }
 
