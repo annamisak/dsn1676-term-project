@@ -21,6 +21,37 @@ html {
     box-sizing: inherit;
 }
 
+@media only screen and (min-width: 60em) {
+    
+    html {
+        font-size: 120%;
+    }
+    
+}
+
+@media only screen and (min-width: 85em) {
+    
+    html {
+        font-size: 140%;
+    }
+    
+}
+
+@media only screen and (min-width: 90em) {
+    
+    html {
+        font-size: 170%;
+    }
+    
+}
+
+@media only screen and (min-width: 120em) {
+    
+    html {
+        font-size: 200%;
+    }  
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -88,8 +119,8 @@ img {
     background-color: #ccc;
     display: none;
     position: absolute;
-    right: 20px;
-    top: 60px;
+    right: 1em;
+    top: 3em;
     width: 9em;
     background-color: white;
     text-align: right;
@@ -156,7 +187,7 @@ img {
     font-size: 1.25rem;
     display: inline-block;
     position: absolute;
-    right: 1em;
+    right: .9em;
     top: 1em;
     
     background-image: url("../img/toggle.svg");
@@ -268,6 +299,7 @@ img {
     color: white;
     opacity: .7;
 
+    -webkit-transition: all 250ms linear;
     transition: all 250ms linear;
 }
 
@@ -411,10 +443,6 @@ wrapper {
     
     nav {
         text-align: right;
-    }
-    
-    .nav {
-        right: 22px;
     }
     
     .bee1 {
