@@ -16,21 +16,21 @@
 
 @-webkit-keyframes bear-body {
     0% {
-        -webkit-transform: translateY(-20px);
+        -webkit-transform: translate(0, -20px);
     }
     
     100% {
-        -webkit-transform: translateY(-70px);
+        -webkit-transform: translate(0, -70px);
     }
 }
 
 @keyframes bear-body {
     0% {
-        transform: translateY(-20px);
+        transform: translate(0, -20px);
     }
     
     100% {
-        transform: translateY(-70px);
+        transform: translate(0, -70px);
     }
 }
 
@@ -70,11 +70,18 @@
     }
 }
 
+#arm-right-wrap,
+#arm-left-wrap {
+    transform: translate(1px, 1px);
+}
+
+#arm-right {
+    -webkit-transform-origin: 160px 250px;
+    transform-origin: 160px 250px;
+}
+
 .js-active #arm-right {
-    -webkit-transform-origin: center left;
     -webkit-animation: arm-right 1s ease alternate infinite;
-    
-    transform-origin: center left;
     animation: arm-right 1s ease alternate infinite;
 }
 

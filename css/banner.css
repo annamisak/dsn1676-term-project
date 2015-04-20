@@ -189,7 +189,7 @@ h1 {
     animation: cloud4 200s linear infinite;
 }
 
-@keyframes cloud4 {
+@-webkit-keyframes cloud4 {
     0% { -webkit-transform: translateX(100px); }
     100% { -webkit-transform: translateX(-1500px); }
 }
