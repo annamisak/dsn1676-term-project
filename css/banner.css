@@ -119,33 +119,32 @@ h1 {
     position: absolute;
     width: 40%;
     top: 3%;
-    right: 10%;
+    left: 15%;
     opacity: 0.7;
-    overflow: hidden;
     
     -webkit-animation: cloud1 200s linear infinite;
     animation: cloud1 200s linear infinite;
 }
 
 @-webkit-keyframes cloud1 {
-    0% { -webkit-transform: translateX(60px); }
+    0% { -webkit-transform: translateX(0); }
     100% { -webkit-transform: translateX(-1500px); }
 }
 
 @keyframes cloud1 {
-    0% { transform: translateX(300px); }
+    0% { transform: translateX(0); }
     100% { transform: translateX(-1500px); }
 }
 
 .cloud2 {
     position: absolute;
-    width: 40%;
-    top: 3%;
-    left: 15%;
+    width: 10%;
+    top: 10%;
+    right: 30%;
     opacity: 0.7;
     
-    -webkit-animation: cloud2 200s linear infinite;
-    animation: cloud2 200s linear infinite;
+    -webkit-animation: cloud2 400s linear infinite;
+    animation: cloud2 400s linear infinite;
 }
 
 @-webkit-keyframes cloud2 {
@@ -161,62 +160,41 @@ h1 {
 .cloud3 {
     position: absolute;
     width: 10%;
-    top: 10%;
-    right: 30%;
-    opacity: 0.7;
-    
-    -webkit-animation: cloud3 400s linear infinite;
-    animation: cloud3 400s linear infinite;
-}
-
-@-webkit-keyframes cloud3 {
-    0% { -webkit-transform: translateX(0); }
-    100% { -webkit-transform: translateX(-1500px); }
-}
-
-@keyframes cloud3 {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-1500px); }
-}
-
-.cloud4 {
-    position: absolute;
-    width: 10%;
     top: 15%;
     right: 45%;
     opacity: 0.7;
     
-    -webkit-animation: cloud4 300s linear infinite;
-    animation: cloud4 300s linear infinite;
+    -webkit-animation: cloud3 300s linear infinite;
+    animation: cloud3 300s linear infinite;
 }
 
-@-webkit-keyframes cloud4 {
+@-webkit-keyframes cloud3 {
     0% { -webkit-transform: translateX(0px); }
     100% { -webkit-transform: translateX(-1500px); }
 }
 
-@keyframes cloud4 {
+@keyframes cloud3 {
     0% { transform: translateX(0px); }
     100% { transform: translateX(-1500px); }
 }
 
-.cloud5 {
+.cloud4 {
     position: absolute;
     width: 20%;
     top: 20%;
     right: 30%;
     opacity: 0.7;
     
-    -webkit-animation: cloud5 200s linear infinite;
-    animation: cloud5 200s linear infinite;
+    -webkit-animation: cloud4 200s linear infinite;
+    animation: cloud4 200s linear infinite;
 }
 
-@keyframes cloud5 {
+@keyframes cloud4 {
     0% { -webkit-transform: translateX(100px); }
     100% { -webkit-transform: translateX(-1500px); }
 }
 
-@keyframes cloud5 {
+@keyframes cloud4 {
     0% { transform: translateX(100px); }
     100% { transform: translateX(-1500px); }
 }
