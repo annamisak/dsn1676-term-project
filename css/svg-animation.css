@@ -42,7 +42,7 @@
     
 }
 
-/*.js-active #arm-left {
+.js-active #arm-left {
     -webkit-transform-origin: center left;
     -webkit-animation: arm-left 1s ease alternate infinite;
     
@@ -154,7 +154,7 @@
     }
 }
 
-.st0 {
+/*.st0 {
     fill:#83CDC2;
 }
 
