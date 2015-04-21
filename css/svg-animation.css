@@ -42,11 +42,35 @@
     
 }
 
+#arm-right-wrap,
+#arm-left-wrap,
+#leg-left-wrap,
+#leg-right-wrap {
+    transform: translate(1px, 1px);
+}
+
+#arm-right {
+    -webkit-transform-origin: 160px 250px;
+    transform-origin: 160px 250px;
+}
+
+#arm-left {
+    -webkit-transform-origin: 160px 250px;
+    transform-origin: 160px 250px;
+}
+
+#leg-right {
+    -webkit-transform-origin: 160px 250px;
+    transform-origin: 160px 250px;
+}
+
+#leg-left {
+    -webkit-transform-origin: 160px 250px;
+    transform-origin: 160px 250px;
+}
+
 .js-active #arm-left {
-    -webkit-transform-origin: center left;
     -webkit-animation: arm-left 1s ease alternate infinite;
-    
-    transform-origin: center left;
     animation: arm-left 1s ease alternate infinite;
 }
 
@@ -68,16 +92,6 @@
     100% {
         transform: rotate(-60deg);
     }
-}
-
-#arm-right-wrap,
-#arm-left-wrap {
-    transform: translate(1px, 1px);
-}
-
-#arm-right {
-    -webkit-transform-origin: 160px 250px;
-    transform-origin: 160px 250px;
 }
 
 .js-active #arm-right {
@@ -106,10 +120,7 @@
 }
 
 .js-active #leg-left {
-    -webkit-transform-origin: center top;
     -webkit-animation: leg-left 1s ease alternate infinite;
-    
-    transform-origin: center top;
     animation: leg-left 1s ease alternate infinite;
 }
 
@@ -134,10 +145,7 @@
 }
 
 .js-active #leg-right {
-    -webkit-transform-origin: center top;
     -webkit-animation: leg-right 1s ease alternate infinite;
-    
-    transform-origin: center top;
     animation: leg-right 1s ease alternate infinite;
 }
 

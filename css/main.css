@@ -148,7 +148,7 @@ nav ul {
 .nav-check {
     position: absolute;
     top: -3em;
-    display: none;
+    left: 0;
 }
 
 .nav-check:checked ~ .nav {
@@ -172,6 +172,10 @@ nav ul {
     white-space: nowrap;
 }
 
+.nav-check:focus ~ .nav-label {
+    outline: 3px solid #000;
+}
+
 .nav-check:checked ~ .nav-label {
     background-position: center bottom;
 }
@@ -191,6 +195,10 @@ nav ul {
     opacity: .8;
     -webkit-transition: opacity .25s ease-in-out;
     transition: opacity .25s ease-in-out;
+}
+
+.button a {
+    display: block;
 }
 
 .button:hover {
@@ -280,6 +288,10 @@ nav ul {
 .tabs a:focus .titles {
     opacity: 1;
     font-size: 2em;
+}
+
+.tabs a:focus {
+    outline: 0;
 }
 
 .tab-img {
