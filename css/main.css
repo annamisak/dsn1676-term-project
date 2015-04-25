@@ -34,12 +34,12 @@ a:active {
     text-decoration: none;
 }
 
-a:hover {
-    outline: none;
-}
-
 a:focus {
     outline: 3px solid #000;
+}
+
+a:hover {
+    outline: none;
 }
 
 /* KEYBOARD USE SETTINGS starts*/
