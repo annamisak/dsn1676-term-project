@@ -55,18 +55,18 @@
 }
 
 #arm-left {
-    -webkit-transform-origin: 160px 250px;
-    transform-origin: 160px 250px;
+    -webkit-transform-origin: 150px 260px;
+    transform-origin: 150px 260px;
 }
 
 #leg-right {
-    -webkit-transform-origin: 160px 250px;
-    transform-origin: 160px 250px;
+    -webkit-transform-origin: 160px 280px;
+    transform-origin: 160px 280px;
 }
 
 #leg-left {
-    -webkit-transform-origin: 160px 250px;
-    transform-origin: 160px 250px;
+    -webkit-transform-origin: 160px 310px;
+    transform-origin: 160px 310px;
 }
 
 .js-active #arm-left {

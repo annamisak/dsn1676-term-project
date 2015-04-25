@@ -359,6 +359,10 @@ footer ul {
     padding-left: 0;
 }
 
+footer a {
+    display: inline-block;
+}
+
 .sm-wrapper {
     width: 100%;
     text-align: center;
@@ -389,12 +393,9 @@ footer ul {
 }
 
 .return {
-    position: absolute;
+    text-align: center;
     width: 50px;
-    height: auto;
-    bottom: 30px;
     opacity: .85;
-    right: 20px;
     
     -webkit-transition: all 250ms linear;
     transition: all 250ms linear;
@@ -404,6 +405,11 @@ footer ul {
     opacity: 1;
     width: 60px;
     height: auto;
+}
+
+.return-link {
+    width: 100%;
+    text-align: center;
 }
 
 .bye {
