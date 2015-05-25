@@ -35,7 +35,7 @@ a:active {
 }
 
 a:focus {
-    outline: 3px solid #000;
+    outline: 1px solid #000;
 }
 
 a:hover {
